@@ -1,74 +1,34 @@
-<!DoCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>@byeol_362</title>
         <style>
+             @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
             body{
-                background-color: goldenrod;
-            }
-            .profile{
-                width: 150px;
-                height: 150px;
-
-                background-color: cadetblue;
-                border-radius: 100%;
-
-                border: 4px solid white;
-
-                background-image: url(parrot.jpeg);
-                background-position: center;
-                background-size: cover;
-            }
-            .main{
-                color: white;
                 font-size: 20px;
+                background-color:beige;
             }
-            .sub{
-                color:white;
-                font-size: 14px;
-                margin-top: 0px;
-                margin-bottom: 30px;
+            h1{
+                font-family: 'Black Han Sans', sans-serif;
+                font-size: 3em;
+                text-align: center;
+                color:blue;
             }
-            .warp{
-                width: 350px;
-                margin: 30px auto 0px auto;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+            .accent{
+                font-size: 150%;
+                font-weight: 800;
             }
-            .warp>a{
-                font-size: 14px;
-                font-weight: bold;
-                color:indianred;
-
-                background-color: white;
-                border-radius: 8px;
-                box-shadow: 3px 3px 5px 0px indianred;
-
-                width: 300px;
-                height: 50px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                margin-bottom: 10px;
-                text-decoration: none;
+            .italic{
+                font-style: italic;
             }
         </style>
     </head>
     <body>
-        <div class="warp">
-            <div class="profile"></div>
-            <!--<img src="parrot.jpeg"/>-->
-            <h1 class="main">이성은</h1>
-            <p class="sub">연습용 사이트</p>
-            <a target="_blank" href="https://www.instagram.com/byeol_362/">인스타그램</a>
-            <a target="_blank" href="https://www.instagram.com/aangco_/">앵스타툰</a>
-            <a target="_blank" href="https://twitter.com/byeol_362">X</a>
-            <a target="_blank" href="https://www.youtube.com/channel/UC14w5r32dt3JFriS7_RoDHA"><img src="youtube.jpg"style="width: 35%; height : auto;"/></a>
+        <div id="wrap">
+        <h1> 10113 이성은</h1>
+        <h2> 테스트용</h2>
         </div>
+        <p>산업디자인과 1학년 1반 <span class="accent">이성은</span>입니다.</p>
+        <p class="italic"><b>짹</b>짹</p>
     </body>
 </html>
