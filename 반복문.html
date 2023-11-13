@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            let i;
+            for(i=10;i<=35;i+=5){
+                document.write("<span ");
+                document.write("style='font-size:"+ i +"px'>")
+                document.write(i+"px");
+                document.write("</span>");
+            }
+
+            let n =prompt("0보다 큰 정수를 입력하세요.", 0);
+            n =parseInt(n);
+            let i=0, sum=0;
+            while(i<=n){
+                sum = sum + i;
+                i++;
+            }
+            document.write("0에서 " + n + "까지 합은" + sum)
+        </script>
+    </body>
+</html>
